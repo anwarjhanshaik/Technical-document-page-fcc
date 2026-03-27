@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+  <title>Technical Documentation Page</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!--Header-->
+  <header id="top"><h1><span aria-hidden="true"><i class="fa-brands fa-python"></i></span>Python</h1></header>
+  
+  <!--Navbar-->
+  <nav id="navbar">
+    <header>Menue</header>
+    <div class="links">
+      <a class="nav-link" href="#Introduction_To_Python">Introduction To Python</a>
+      <a class="nav-link" href="#What_you_should_already_know">What you should already know</a>
+      <a class="nav-link" href="#Hello_World!">Hello World!</a>
+      <a class="nav-link" href="#Variables">Variables</a>
+      <a class="nav-link" href="#Variable_Scope">Variable Scope</a>
+      <a class="nav-link" href="#Data_Types">Data Types</a>
+      <a class="nav-link" href="#If/Else_Statements_in_Python">If/Else Statements in Python</a>
+      <a class="nav-link" href="#Loops">Loops</a>
+      <a class="nav-link" href="#Function_declarations">Function declarations</a>
+      <a class="nav-link" href="#Reference">Reference</a>
+    </div>
+  </nav>
+
+  <!--Main Document-->
+  <main id="main-doc">
+
+    <!--section1-->
+    <section class="main-section" id="Introduction_To_Python">
+      <header>Introduction To Python</header>
+      <article>
+        <h3>What is python?</h3>
+        <p>Python is a popular programming language. It was created by Guido van Rossum, and released in 1991</p>
+        <p>Python is a high-level, general-purpose programming language renowned for its readability and simple,English-like syntax, making it an ideal choice for beginners. It is dynamically typed and supports multipleprogramming paradigms, including procedural, object-oriented, and functional programming.</p>
+        <ul>
+          <li>web development (server-side),</li>
+          <li>software development,</li>
+          <li>mathematics,</li>
+          <li>system scripting.</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>What can Python do?</h3>
+        <ul>
+          <li>Python can be used on a server to create web applications.</li>
+          <li>Python can be used alongside software to create workflows.</li>
+          <li>Python can connect to database systems. It can also read and modify files.</li>
+          <li>Python can be used to handle big data and perform complex mathematics.</li>
+          <li>Python can be used for rapid prototyping, or for production-ready software development.</li>
+        </ul>
+      </article>
+  
+      <article>
+        <h3>Python Syntax compared to other programming languages</h3>
+        <ul>
+          <li>Python was designed for readability, and has some similarities to the English language with influence from
+            mathematics.</li>
+          <li>Python uses new lines to complete a command, as opposed to other programming languages which often use
+            semicolons or parentheses.</li>
+          <li>Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and
+            classes. Other programming languages often use curly-brackets for this purpose</li>
+        </ul>
+      </article>
+    </section>
+
+    <!--section2-->
+    <section class="main-section" id="What_you_should_already_know">
+      <header>What you should already know</header>
+      <article>
+        <p>You don't need any formal knowledge before learning Python as it is considered one of the most beginner-friendly languages. The key prerequisites are basic computer skills (like file management), a problem-solving mindset, and the willingness to practice consistently. </p>
+
+        <h3>Essential Skills and Mindset</h3>
+        <ul>
+          <li><strong>Basic computer literacy:</strong> You should be comfortable with using a computer, navigating
+            files, and typing.</li>
+          <li><strong>Problem-solving mindset:</strong> Programming is essentially about solving problems. It helps to
+            have a task or problem you want to solve, as this provides motivation and a practical application for what
+            you learn.</li>
+          <li><strong>Patience and persistence:</strong> You will encounter errors and get stuck. The ability to be
+            patient, debug (often by using print statements or Google searches), and keep trying is crucial.</li>
+          <li><strong>Logical thinking:</strong> Basic mathematical logic (like if/else conditions and loops) is the
+            foundation of programming.</li>
+          <li><strong>Ability to read documentation:</strong> While many tutorials exist, learning to read official
+            documentation is a vital skill for long-term success as a programmer.</li>
+        </ul>
+      </article>
+    </section>
+
+    <!--section3-->
+    <section class="main-section" id="Hello_World!">
+      <header>Hello World!</header>
+      <article>
+        <p>To print "hello world" in Python, use the built-in print() function. The message you want to display should be enclosed in quotes within the parentheses.</p>
+        <pre><code>print("Hello World!")</code></pre>
+        <p>Open your command line interface (CLI), type python (or python3), and then enter the print("Hello, World!")
+          line at the >>> prompt.</p>
+      </article>
+    </section>
+
+    <!--section4-->
+    <section class="main-section" id="Variables">
+      <header>Variables</header>
+      <article>
+        <p>In Python, a variable is a symbolic name (or label) that references an object or value stored in memory. Unlike some other programming languages, Python is dynamically typed, meaning you do not need to explicitly declare a variable's data type, and the type can change during execution.</p>
+        <h3>Key Concepts</h3>
+        <ul>
+          <li><strong>Assignment:</strong> Variables are created using the assignment operator (=). The variable name goes on the left, and the value to be stored (the object) goes on the right.<pre><code># Example assignments
+age = 25              
+# age is an 
+integer variable
+name = "Alice"        
+# name is a 
+string variable
+is_student = True     
+# is_student is 
+a boolean variable</code></pre></li>
+          <li><strong>Dynamic Typing:</strong> Python automatically determines the data type of the variable based on the assigned value. A variable can be reassigned a value of a different type:<pre><code>x = 10     
+# x is an int
+x = "hello"
+# x is now a string</code></pre>
+          </li>
+          <li><strong>Object References:</strong> Variables don't directly store values; they are references (pointers) to objects in memory. When you assign y = x, both y and x point to the same object.</li>
+        </ul>
+      </article>
+    </section>
+
+    <!--section5-->
+    <section class="main-section" id="Variable_Scope">
+      <header>Variable Scope</header>
+      <article>
+        <p>The scope of a variable determines where in the program it can be accessed.</p>
+        <ul>
+          <li><strong>Local Scope:</strong> Variables defined inside a function are local to that function and can only
+            be used within it.</li>
+          <li><strong>Global Scope:</strong> Variables defined in the main body of the script are global and can be
+            accessed throughout the program, including inside functions.</li>
+          <li>The <code>global</code> keyword can be used to modify a global variable from within a function. </li>
+        </ul>
+      </article>
+    </section>
+
+    <!--section6-->
+    <section class="main-section" id="Data_Types">
+      <header>Data Types</header>
+      <article>
+        <p>In Python, data types categorize the kind of value a variable holds, which determines what operations can be performed on it. Because everything in Python is an object, these data types are actually classes, and variables are instances of these classes. </p>
+        <p>Think of Python data types like different kinds of containers used to store information. Depending on what
+          you want to save, you pick the right "box":
+        </p>
+        <ul>
+          <li><strong>Numeric Types:</strong> Used to store numerical values.
+            <ul class="sub-list">
+              <li><code>int</code>: Integers (whole numbers, positive or negative) with unlimited length.</li>
+              <li><code>float</code>: Floating-point numbers (numbers with a decimal point).</li>
+              <li><code>complex</code>: Complex numbers, written as a real part and an imaginary part with a j suffix
+                (e.g., 2 + 3j).</li>
+            </ul>
+          </li>
+
+          <li><strong>Sequence Types:</strong> Ordered collections of items, supporting indexing and slicing.
+            <ul class="sub-list">
+              <li><code>str</code>: Strings, used for text and sequences of characters, enclosed in single, double, or
+                triple quotes.</li>
+              <li><code>list</code>: Mutable (changeable) collections of items, which can be of different data types,
+                created using square brackets [].</li>
+              <li><code>tuple</code>: Immutable (unchangeable) collections of items, created using parentheses ().</li>
+              <li><code>range</code>: Represents an immutable sequence of numbers, often used in loops.</li>
+            </ul>
+          </li>
+    
+          <li><strong>Mapping Type:</strong>
+            <ul class="sub-list">
+              <li><code>dict</code>: Dictionaries are ordered<sup>3.7+</sup> collections of data in key-value pairs, created using
+                curly braces {}. Keys must be unique and immutable.</li>
+            </ul>
+          </li>
+      
+          <li><strong>Set Types:</strong> Unordered collections of unique items, defined using curly braces {} or the
+            set() function.
+            <ul class="sub-list">
+              <li><code>set</code>: Mutable sets.</li>
+              <li><code>frozenset</code>: Immutable sets.</li>
+            </ul>
+          </li>
+
+          <li><strong>Boolean Type:</strong>
+            <ul class="sub-list">
+              <li><code>bool</code>: Represents logical values, which can be either <code>True</code> or
+                <code>False</code>. Boolean objects are a subtype of integers, where <code>True</code> is equivalent to
+                1 and <code>False</code> is equivalent to 0.</li>
+            </ul>
+          </li>
+    
+          <li><strong>None Type:</strong>
+            <ul class="sub-list">
+              <li><code>Nonetype</code>: Represents the absence of a value or a null value. It has only one value:
+                <code>None</code>.</li>
+            </ul>
+          </li>
+    
+          <li><strong>Binary Types:</strong>
+            <ul class="sub-list">
+              <li><code>bytes</code>: Immutable sequences of bytes.</li>
+              <li><code>bytearray</code>: Mutable sequences of bytes.</li>
+              <li><code>memoryview</code>: Provides a view into the memory of other binary objects without copying the
+                data.</li>
+            </ul>
+          </li>
+        </ul>
+      </article>
+    </section>
+
+    <!--section7-->
+    <section class="main-section" id="If/Else_Statements_in_Python">
+      <header>If/Else Statements in Python</header>
+      <article>
+        <p>The <code>if...else</code> statements in Python are conditional statements that allow a program to make decisions and execute different blocks of code based on whether a specified condition is true or false. This control flow mechanism is fundamental to programming logic. </p>
+        <h3>Types of If...Else Statements</h3>
+        <p>Python offers several ways to handle conditional logic:</p>
+        <ul>
+          <li><strong><code>if</code> statement:</strong> Executes a block of code only if the condition is
+            <code>True</code>.</li>
+          <li><strong><code>if...else</code> statement:</strong> Executes the if block if the condition is
+            <code>True</code>, and the else block if the condition is <code>False</code>.</li>
+          <li><strong><code>if...elif...else</code> ladder:</strong> Checks multiple conditions sequentially, executing
+            the first block whose condition is <code>True</code>. If no condition is met, the final <code>else</code>
+            block is executed.</li>
+          <li><strong>Nested<code> if</code></strong> statements:</li>
+          <li><strong>Syntax:</strong><pre><code>if condition1:
+  #Code to execute if
+  condition1 is True
+elif condition2:
+  #Code to execute if
+  condition2 is True
+  #Can have more 
+  elif blocks
+else:
+  #Code to execute if
+  none of the above </code></pre>
+          </li>
+        </ul>
+      </article>
+    </section>
+
+    <!--section8-->
+    <section class="main-section" id="Loops">
+      <header>Loops</header>
+          <article>
+        <p>In Python, loops are used to automate repetitive tasks by executing a block of code multiple times. Python primarily uses two types of loops: <code>for</code> and <code>while</code>.</p>
+            <ol>
+              <li><strong>The <code>for</code> Loop</strong>
+                <p>The for loop is used for sequential traversal, meaning it iterates over a pre-defined sequence like a
+                  list, string, tuple, or range. It is best used when you know exactly how many times you want to repeat
+                  a task.</p>
+
+                <ul class="sub-list">
+                  <li><strong>Common Use Case:</strong> Iterating through all items in a list or characters in a string.
+                  </li>
+                  <li><strong>Key Function:</strong> The range() function is often used with <code>for</code> loops to
+                    generate a sequence of numbers (e.g., <code>range(5)</code> generates 0 to 4)</li>
+
+                </ul>
+              </li>
+              <li><strong>The <code>while</code> Loop:</strong>
+                <p>The while loop repeats a block of code as long as a specific condition remains true. It is ideal when
+                  you don't know the exact number of iterations beforehand, such as waiting for a specific user input.
+                </p>
+                <ul class="sub-list">
+                  <li><strong>Infinite Loops:</strong> If the condition never becomes false, the loop will run forever
+                    unless stopped manually (e.g., <code>while True:</code>).</li>
+                </ul>
+              </li>
+            </ol>
+          </article>
+    </section>
+
+    <!--section9-->
+    <section class="main-section" id="Function_declarations">
+      <header>Function declarations</header>
+      <article>
+        <p>In Python, a function declaration (often called a "definition") is like writing a recipe. You define the steps once, give it a name, and then you can "cook" that recipe whenever you want without rewrite the instructions.</p>
+        <ol>
+          <li><strong>The Basic Anatomy</strong>
+        <p>You use the def keyword to tell Python you are making a function.</p><pre><code>def greet_user():
+  print("Hello there!")</code></pre>
+          <ul class="sub-list">
+            <li><strong><code>def</code>:</strong> Short for "define." It starts the declaration.</li>
+            <li><strong><code>greet_user</code>:</strong> This is the name. You choose it (use lowercase and underscores).</li>
+            <li><strong><code>()</code>:</strong> The parentheses are for "ingredients" (parameters). Even if you don't have any, you still need the brackets.</li>
+            <li><strong><code>:</code>:</strong> The colon says, "Here comes the list of instructions."</li>
+            <li><strong>Indentation:</strong> Everything inside the function must be indented (pushed to the right).
+            </li>
+          </ul>
+        </li>
+        </ol>
+      </article>
+    </section>
+
+    <!--section10-->
+    <section class="main-section" id="Reference">
+      <header>Reference</header>
+      <ul>
+        <li>All the documentation in this page is taken from <a href="https://www.python.org/">Python.org</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <!--Arrow up-->
+  <a href="#navbar" class="arrow-up" aria-hidden="true" ><span><i class="fa-solid fa-arrow-up"></i></span></a>
+
+                  <!--completed-->
+</body>
+
+</html>
